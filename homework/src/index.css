@@ -1,0 +1,69 @@
+
+body {
+ background-color: white;
+}
+
+.btn {
+ margin-left: 20px;
+ margin-bottom: 10px;
+ cursor: pointer;
+ font-size: 15px;
+ color:#fff;
+ width: 180px;
+ height: 40px;
+}
+
+.btn.blue{
+ background-color: #4eafc9;
+ border: 2px solid #2a89a2;
+}
+
+.btn.blue:hover{
+ background-color: #2a89a2;
+ border: 2px solid #1d6f85;
+}
+
+.btn.green{
+ background-color: #00b33c;
+ border: 2px solid #009933;
+}
+
+.btn.green:hover{
+ background-color: #00802b;
+ border: 2px solid #006622;
+}
+
+.btn.delete {
+  background-color: #B22222;
+  border: 2px solid #650902;
+}
+
+.btn.delete:hover{
+ background-color: #8B0000;
+ border: 2px solid #540601;
+}
+
+.card {
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: box-shadow .3s ease-in-out;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
+.card:hover {
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, .15);
+}
+
+.list {
+    display: block;
+    justify-content: space-between;
+}
+
+.select.car {
+  margin-left: 20px;
+  cursor: pointer;
+  width: 180px;
+}
